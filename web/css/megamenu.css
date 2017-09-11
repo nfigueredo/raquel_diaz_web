@@ -1,4 +1,4 @@
-.megamenu{margin-bottom:0px;padding:0;width:100%;list-style:none;display:inline-block;position:relative;font-size:15px}
+.megamenu{margin-bottom:0px;padding:0;width:100%;list-style:none;display:inline-block;position:relative;font-size:15px;z-index:99;}
 .megamenu li{margin-bottom:-5px;display:inline}
 .megamenu>li>a{float:left;padding:8px 20px;text-decoration:none;text-transform:capitalize;font-size:1.1em; -webkit-transition: all 0.3s ease-in-out;text-transform:uppercase;
 	-moz-transition: all 0.3s ease-in-out;
@@ -7,6 +7,7 @@
 	color:#fff;
 	letter-spacing:3px;
 	font-weight:lighter;
+	z-index: 99;	
 }
 .megamenu>li.active>a{color:#F9D9BE;}
 .megamenu>li.right{float:right}
